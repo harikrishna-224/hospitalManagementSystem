@@ -1,0 +1,4 @@
+# This is a placeholder for the H2 database JAR file
+# In a real implementation, you would download the H2 JAR file from:
+# https://repo1.maven.org/maven2/com/h2database/h2/2.2.224/h2-2.2.224.jar
+# and place it in this lib directory
