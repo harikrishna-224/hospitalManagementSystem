@@ -42,7 +42,7 @@ This is a pure Java backend implementation for the Hospital Management System wi
 
 ### Database
 - Uses H2 in-memory database for simplicity
-- Database schema is automatically created on startup.
+- Database schema is automatically created on startup
 - Sample data is inserted for testing
 
 ## API Endpoints
@@ -84,9 +84,9 @@ The server will start on port 8080.
 The application comes with sample data:
 
 ### Users
-- Admin: gurijalaharikrishna4@.com / admin123
-- Doctor: michael@hospital.com / doctor123
-- Nurse: lisa@hospital.com / nurse123
+- **Admin**: gurijalaharikrishna4@gmail.com / admin123
+- **Doctor**: michael@hospital.com / doctor123
+- **Nurse**: lisa@hospital.com / nurse123
 
 ### Patients
 - John Smith (with sample medical history)

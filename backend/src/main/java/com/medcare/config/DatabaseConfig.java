@@ -148,7 +148,7 @@ public class DatabaseConfig {
             INSERT INTO users (name, email, password, role) VALUES
             ('Dr. Harikrishna', 'gurijalaharikrishna4@gmail.com', 'admin123', 'ADMIN'),
             ('Dr. Michael Chen', 'michael@hospital.com', 'doctor123', 'DOCTOR'),
-            ('Nurse Lisa ', 'lisa@hospital.com', 'nurse123', 'NURSE')
+            ('Nurse Lisa Rodriguez', 'lisa@hospital.com', 'nurse123', 'NURSE')
         """);
         
         // Insert sample patients
@@ -162,7 +162,7 @@ public class DatabaseConfig {
         stmt.execute("""
             INSERT INTO appointments (patient_id, patient_name, doctor_id, doctor_name, appointment_date, appointment_time, duration, type, status, notes) VALUES
             (1, 'John Smith', 2, 'Dr. Michael Chen', '2024-01-25', '10:00:00', 30, 'consultation', 'scheduled', 'Regular checkup'),
-            (2, 'Emily Johnson', 1, 'Dr. Sarah Johnson', '2024-01-25', '14:30:00', 45, 'follow-up', 'scheduled', 'Follow-up for previous consultation')
+            (2, 'Emily Johnson', 1, 'Dr. Harikrishna', '2024-01-25', '14:30:00', 45, 'follow-up', 'scheduled', 'Follow-up for previous consultation')
         """);
         
         // Insert sample EHR records

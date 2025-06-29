@@ -25,7 +25,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     
     // Mock users for demonstration
     const mockUsers = [
-      { id: '1', name: 'Dr. Sarah Johnson', email: 'sarah@hospital.com', password: 'admin123', role: 'admin' as const },
+      { id: '1', name: 'Dr. Harikrishna', email: 'gurijalaharikrishna4@gmail.com', password: 'admin123', role: 'admin' as const },
       { id: '2', name: 'Dr. Michael Chen', email: 'michael@hospital.com', password: 'doctor123', role: 'doctor' as const },
       { id: '3', name: 'Nurse Lisa Rodriguez', email: 'lisa@hospital.com', password: 'nurse123', role: 'nurse' as const },
     ];
