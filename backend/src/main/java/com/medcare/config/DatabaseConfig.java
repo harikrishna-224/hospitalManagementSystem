@@ -146,9 +146,9 @@ public class DatabaseConfig {
         // Insert sample users
         stmt.execute("""
             INSERT INTO users (name, email, password, role) VALUES
-            ('Dr. Sarah Johnson', 'sarah@hospital.com', 'admin123', 'ADMIN'),
+            ('Dr. Harikrishna', 'gurijalaharikrishna4@gmail.com', 'admin123', 'ADMIN'),
             ('Dr. Michael Chen', 'michael@hospital.com', 'doctor123', 'DOCTOR'),
-            ('Nurse Lisa Rodriguez', 'lisa@hospital.com', 'nurse123', 'NURSE')
+            ('Nurse Lisa ', 'lisa@hospital.com', 'nurse123', 'NURSE')
         """);
         
         // Insert sample patients
